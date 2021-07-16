@@ -1,0 +1,45 @@
+:root {
+  --gray: #212121;
+  --lightgrey: #616161;
+  --bodygrey: #414141;
+  --footergray: #212429;
+}
+
+body{
+  color: var(--bodygrey);
+  font-family: "system-ui";
+}
+
+header{
+  font-size: 14px;
+  color: var(--lightgray);
+}
+
+header a{
+  color: var(--lightgrey);
+  text-decoration: none;
+}
+header a:hover{
+  color: var(--gray);
+}
+
+header p{
+  color: var(--lightgrey);
+}
+nav details summary{
+  font-weight: bold;
+  color: var(--lightgrey);
+}
+
+h1{
+  font-size: 60px;
+  color: var(--gray);
+}
+
+h2{
+  font-size: 2em;
+}
+
+h3{
+  font-size: 1.5em;
+}
